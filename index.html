@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Enrollment Form</title>
+</head>
+<body>
+
+<form action="success.html" method="post">
+
+<table align="center" border="0" width="700" cellpadding="8">
+
+    <tr style="background-color: beige;">
+        <th colspan="2">COLLEGE ENROLLMENT FORM</th>
+    </tr>
+
+    <tr>
+        <td>First Name*</td>
+        <td><input type="text" name="firstname" required></td>
+    </tr>
+
+    <tr>
+        <td>Middle Name</td>
+        <td><input type="text" name="middlename"></td>
+    </tr>
+
+    <tr>
+        <td>Last Name*</td>
+        <td><input type="text" name="lastname" required></td>
+    </tr>
+
+    <tr>
+        <td>Birthday*</td>
+        <td><input type="date" name="birthday" required></td>
+    </tr>
+
+    <tr>
+        <td>Birthplace*</td>
+        <td><input type="text" name="birthplace" required></td>
+    </tr>
+
+    <tr>
+        <td>Age*</td>
+        <td><input type="number" name="age" required></td>
+    </tr>
+
+    <tr>
+        <td>Year Level*</td>
+        <td>
+            <select name="yearlevel" required>
+                <option value="">Select Year Level</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Course*</td>
+        <td>
+            <select name="course" required>
+                <option value="">Select Course</option>
+                <option>BSIT</option>
+                <option>BSBA</option>
+                <option>BSED</option>
+                <option>BSCRIM</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Citizenship*</td>
+        <td><input type="text" name="citizenship" value="Filipino" required></td>
+    </tr>
+
+    <tr>
+        <td>Sex*</td>
+        <td>
+            <input type="radio" name="sex" value="Male" required> Male
+            <input type="radio" name="sex" value="Female"> Female
+        </td>
+    </tr>
+
+    <tr>
+        <td>Civil Status*</td>
+        <td>
+            <select name="civilstatus" required>
+                <option>Single</option>
+                <option>Married</option>
+                <option>Widowed</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Region*</td>
+        <td><input type="text" name="region" required></td>
+    </tr>
+
+    <tr>
+        <td>Province*</td>
+        <td><input type="text" name="province" required></td>
+    </tr>
+
+    <tr>
+        <td>City*</td>
+        <td><input type="text" name="city" required></td>
+    </tr>
+
+    <tr>
+        <td>Barangay*</td>
+        <td><input type="text" name="barangay" required></td>
+    </tr>
+
+    <tr>
+        <td>House No./Street*</td>
+        <td><input type="text" name="address" required></td>
+    </tr>
+
+    <tr>
+        <td>Contact No.*</td>
+        <td><input type="tel" name="contact" required></td>
+    </tr>
+
+    <tr>
+        <td valign="top">Credentials Submitted*</td>
+        <td>
+            <input type="checkbox" name="cred[]" value="Form138"> Form-138 (High School Card)<br>
+            <input type="checkbox" name="cred[]" value="Form137"> Form-137<br>
+            <input type="checkbox" name="cred[]" value="Birth Certificate"> Birth Certificate<br>
+            <input type="checkbox" name="cred[]" value="Good Moral"> Good Moral Certificate<br>
+            <input type="checkbox" name="cred[]" value="Transfer"> Certificate of Transfer Credentials<br>
+            <input type="checkbox" name="cred[]" value="TOR"> Transcript of Records<br>
+            <input type="checkbox" name="cred[]" value="Summer Permit"> Summer Permit / Permit to Cross Enroll<br>
+            <input type="checkbox" name="cred[]" value="Picture"> Picture<br>
+            <input type="checkbox" name="cred[]" value="PSA"> PSA / NSO
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </td>
+    </tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
